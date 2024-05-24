@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --background : ;
+}
+
+/* index.php */
+/* Bagian index.php */
+/* Index.php */
+
+h1 {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.container-content {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.container {
+    margin: auto;
+}
+
+.content-input {
+    display: flex;
+    margin: 0 auto;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #00000146;
+    display: inline;
+    outline: none;
+    margin: 0 5px;
+    transition: all .2s ease-in-out;
+}
+
+input:focus {
+    border: 1px solid #0000017e;
+}
+
+button {
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    display: inline;
+    transition: all .2s ease-in-out;
+    margin: 10px 0;
+    border: none;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+button:hover {
+    color: rgb(9, 78, 101);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: all .2s ease-in-out;
+    /* background-color: gray;
+    padding: 8px 20px;
+    margin: 10px 0;
+    border-radius: 5px; */
+}
+
+a:hover {
+    color: rgb(0, 255, 119);
+}
+
+i {
+    margin-right: 5px;
+}
+
+
+
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    text-align: left;
+}
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+th {
+    background-color: #f2f2f2;
+}
