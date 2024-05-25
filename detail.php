@@ -24,12 +24,15 @@ if (isset($_GET['id'])) {
     <title>Detail</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="detail">
 
-    <h1><?= $detail['nama'] ?></h1>
-    <h1><?= $detail['nis'] ?></h1>
-    <h1><?= $detail['rayon'] ?></h1>
-    <a href="index.php">Back to home</a>
+    <div class="container-detail">
+        <h1 class="h-detail"><?= $detail['nama'] ?></h1>
+        <h1 class="h-detail"><?= $detail['nis'] ?></h1>
+        <h1 class="h-detail"><?= $detail['rayon'] ?></h1>
+    </div>
+    <br>
+    <center><a href="index.php" class="link-detail">Back to home page</a></center>
 
 </body>
 </html>

@@ -1,0 +1,97 @@
+
+/* index.php */
+
+@media only screen and (max-width: 1750px){
+    .content-input {
+        flex-direction: column;
+        justify-content: left;
+    }
+    input {
+        margin: 10px 0;
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1593px) {
+    .container {
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    input {
+        width: 80%;
+    }
+    .container-btn-input {
+        width: 100%;
+    }
+    form {
+        width: 40%;
+    }
+    .aksi {
+        display: flex;
+        flex-direction: column;
+
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 1410px) {
+    .container-btn-input {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+    input {
+        width: 100%;
+    }
+    .icon-minus, .icon-print {
+        width: 90%;
+        margin: 10px 0;
+    }
+    table {
+        width: 70%;
+        overflow-x: auto;
+    }
+}
+
+@media only screen and (max-width: 1373px) {
+    table {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .container-content {
+        width: 90%;
+    }
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-btn-input {
+        width: 100%;
+    }
+    form {
+        width: 100%;
+
+    }
+    .table {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        overflow-x: scroll;
+    }
+    table {
+        overflow-x: scroll;
+    }
+
+    /* Bagian edit.php */
+    .container-edit {
+        width: 90%;
+    }
+    .input-edit {
+        width: 100%;
+    }
+}
