@@ -68,7 +68,6 @@ if (isset($_POST['btn'])) {
             <a href="index.php" class="icon-print">Batal Edit</a>
             <p style="text-align: center; color: #fff;" >Jika anda ingin mengganti nama atau rayonnya anda harus mengganti NIS nya terlebih dahulu <br> Walau NIS anda sudah benar! <br> kerena NIS anda sebelumnya masih tersimpan di halaman awal  </p>
         </form>
-       
     </div>
 
 </body>

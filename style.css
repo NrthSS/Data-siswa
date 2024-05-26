@@ -228,6 +228,15 @@ th:nth-child(odd) {
   text-align: center;
 }
 
+.link-detail {
+  color: #f6f5f2;
+  transition: all .3s ease-in-out;
+}
+.link-detail:hover {
+  color: #0b91ff;
+  border-bottom: 1px solid #0b91ff;
+}
+
 /* edit.php */
 /* Bagian edit */
 /* edit.php */
